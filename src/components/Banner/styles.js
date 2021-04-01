@@ -7,7 +7,7 @@ export const Container = styled.div`
 
   @media (max-width: ${theme.mediaQuery.landscape}) {
     flex-direction: column;
-    height: auto;
+    height: auto !important;
   }
 `;
 
