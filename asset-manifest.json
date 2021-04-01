@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.js": "/prototypeoMillzWeb/static/js/main.15effc46.chunk.js",
+    "main.js.map": "/prototypeoMillzWeb/static/js/main.15effc46.chunk.js.map",
+    "runtime-main.js": "/prototypeoMillzWeb/static/js/runtime-main.2b39ed2a.js",
+    "runtime-main.js.map": "/prototypeoMillzWeb/static/js/runtime-main.2b39ed2a.js.map",
+    "static/js/2.49ff3942.chunk.js": "/prototypeoMillzWeb/static/js/2.49ff3942.chunk.js",
+    "static/js/2.49ff3942.chunk.js.map": "/prototypeoMillzWeb/static/js/2.49ff3942.chunk.js.map",
+    "index.html": "/prototypeoMillzWeb/index.html",
+    "static/js/2.49ff3942.chunk.js.LICENSE.txt": "/prototypeoMillzWeb/static/js/2.49ff3942.chunk.js.LICENSE.txt",
+    "static/media/massa_pizza.ec1678f1.jpg": "/prototypeoMillzWeb/static/media/massa_pizza.ec1678f1.jpg",
+    "static/media/print_map.0f58f354.png": "/prototypeoMillzWeb/static/media/print_map.0f58f354.png",
+    "static/media/responsive_map.7f8a1209.png": "/prototypeoMillzWeb/static/media/responsive_map.7f8a1209.png",
+    "static/media/schedules_pizza.8f92d06d.jpg": "/prototypeoMillzWeb/static/media/schedules_pizza.8f92d06d.jpg",
+    "static/media/video_pizza.5a2c3522.mov": "/prototypeoMillzWeb/static/media/video_pizza.5a2c3522.mov"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2b39ed2a.js",
+    "static/js/2.49ff3942.chunk.js",
+    "static/js/main.15effc46.chunk.js"
+  ]
+}
