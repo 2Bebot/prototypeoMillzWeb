@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import Banner from "./components/Banner/Banner";
+import Contacts from "./components/Contacts/Contacts";
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
+import Map from "./components/Map/Map";
+import MapResponsive from "./components/Map/MapResponsive";
+import Schedules from "./components/Schedules/Schedules";
+import GlobalStyle from './globalStyle'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <Banner />
+      <Map />
+      <Contacts />
+      <Schedules />
+      <MapResponsive />
+      <Footer />
+      <GlobalStyle/>
     </div>
   );
 }
