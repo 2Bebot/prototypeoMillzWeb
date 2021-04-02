@@ -37,7 +37,7 @@ export const InfoContainer = styled.div`
 
   @media (max-width: ${theme.mediaQuery.landscape}) {
     width: 100vw;
-    padding: 40px 20px;
+    padding: 40px 0px;
   }
 
   h2 {
