@@ -36,7 +36,7 @@ export const InfoContainer = styled.div`
   justify-content: center;
 
   @media (max-width: ${theme.mediaQuery.landscape}) {
-    width: 100%;
+    width: 100vw;
     padding: 40px 20px;
   }
 
