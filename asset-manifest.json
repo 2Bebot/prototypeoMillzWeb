@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/prototypeoMillzWeb/static/js/main.d6cf97b9.chunk.js",
-    "main.js.map": "/prototypeoMillzWeb/static/js/main.d6cf97b9.chunk.js.map",
+    "main.js": "/prototypeoMillzWeb/static/js/main.a2f47008.chunk.js",
+    "main.js.map": "/prototypeoMillzWeb/static/js/main.a2f47008.chunk.js.map",
     "runtime-main.js": "/prototypeoMillzWeb/static/js/runtime-main.2b39ed2a.js",
     "runtime-main.js.map": "/prototypeoMillzWeb/static/js/runtime-main.2b39ed2a.js.map",
     "static/js/2.49ff3942.chunk.js": "/prototypeoMillzWeb/static/js/2.49ff3942.chunk.js",
@@ -17,6 +17,6 @@
   "entrypoints": [
     "static/js/runtime-main.2b39ed2a.js",
     "static/js/2.49ff3942.chunk.js",
-    "static/js/main.d6cf97b9.chunk.js"
+    "static/js/main.a2f47008.chunk.js"
   ]
 }
