@@ -2,7 +2,7 @@ import React from 'react'
 import MassaPizza from '../../assets/images/massa_pizza.jpg'
 import Instagram from '../../assets/images/instagram.png'
 
-import { Container, InfoContainer } from './styles'
+import { Container, InfoContainer, InstagramIcon } from './styles'
 
 const Contacts = () => {
   return (
@@ -15,12 +15,12 @@ const Contacts = () => {
         </div>
         <p>info@millzforneria.com</p>
         <p>+351 927323567</p>
-        <a target='_blank' href='https://www.instagram.com/millz.forneria/' >
+        <InstagramIcon target='_blank' href='https://www.instagram.com/millz.forneria/' >
           <img src={Instagram} alt='isntagram'/>
           <p>@millz.forneria</p>
-        </a>
+        </InstagramIcon>
       </InfoContainer>
-        <img src={MassaPizza} alt='contact-pizza'/>
+        <img src={MassaPizza} alt='contact-pizza' />
     </Container>
   )
 }

@@ -7,7 +7,7 @@ export const Container = styled.div`
 
   @media (max-width: ${theme.mediaQuery.landscape}) {
     flex-direction: column;
-    height: auto !important;
+    height: auto;
   }
 `;
 
@@ -30,9 +30,9 @@ export const Video = styled.video`
 
   @media (max-width: ${theme.mediaQuery.landscape}) {
     position: static;
-    height: auto;
-    width: 100%;
-    background-size: cover;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
   }
 `;
 

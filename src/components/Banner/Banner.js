@@ -7,7 +7,7 @@ const Banner = () => {
   return (
     <Container>
       <VideoContainer>
-        <Video autoPlay autobuffer loop muted>
+        <Video autoPlay autobuffer loop muted >
           <source src={VideoPizza} />
         </Video>
       </VideoContainer>
