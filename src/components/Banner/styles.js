@@ -27,6 +27,8 @@ export const Video = styled.video`
     background-size: contain;
     overflow: hidden;
     z-index: -1;
+    width: 100vw;
+    object-fit: cover;
 
   @media (max-width: ${theme.mediaQuery.landscape}) {
     position: static;
@@ -40,12 +42,12 @@ export const ChatContainer = styled.div`
   display: flex;
   flex: 0.4;
   background-color: ${theme.color.primary};
-  padding: 120px 60px;
+  padding: 120px 60px 0px 60px;
   flex-direction: column;
   align-items: center;
 
   @media (max-width: ${theme.mediaQuery.landscape}) {
-    padding: 40px 20px 0px 20px;
+    padding: 0px;
     min-height: 100vh;
   }
 
@@ -61,5 +63,17 @@ export const ChatContainer = styled.div`
     color: ${theme.color.black};
     font-weight: 400;
     text-align: center;
+  }
+
+  iframe {
+    height: 100%;
+    width: 100%;
+    margin-top: 20px;
+    border: none;
+
+    @media (max-width: ${theme.mediaQuery.landscape}) {
+      padding: 0px;
+      min-height: 100vh;
+  }
   }
 `;
